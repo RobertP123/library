@@ -19,7 +19,7 @@ public class Main {
             if (sc.next().equals("y")) {
                 continue;
             } else if (sc.next().equals("n")) {
-                break;
+                System.exit(0);
             } else {
                 System.out.println("invalid input imma just assume you want to add another book lmao");
             }
